@@ -1,0 +1,167 @@
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+
+body { 
+  font-weight:500;
+  font-family: 'Roboto',sans-serif;
+  background-color: rgb(250,255, 255);
+  color: rgb(0,0,0);
+  font-size: 14px;
+  line-height: 1;
+}
+
+nav{
+  align-items: center;
+  margin: auto;
+  display: flex;
+  padding: 1.5px 3px;
+  gap: 25px;
+  max-width: 1100px;
+}
+header{
+  position: sticky;
+  border-bottom: 2.5px solid rgb(0,0,0);
+  top: 0;
+  background: rgb(255,255,255)
+}
+
+.portfolio_logo img{
+  width: 40px;
+  height: auto;
+}
+.portfolio_logo{
+  margin-right: auto;
+}
+
+nav a{
+  font-size: 1px;
+  font-weight: 350px;
+  transition: color 0.5s ease;
+  transition: background-color 0.5s ease;
+  color: rgb(100,101,102);
+  letter-spacing: 0.05px;
+
+  text-transformation: uppercase;
+}
+
+nav a:hover {
+  color: rgb(11,115,147);
+}
+
+.Home_btn{
+  padding: 0.8px 1.5px;
+  border: 1px solid rgb(0,1,250);
+  border-radius: 1000px;
+  color: rgb(255,255,255);
+  background-color: rgb(0,0,0);
+  line-height: 5px;
+  transition: background-color 0.5s ease transform 0.1s ease;
+  
+}
+
+.Home_btn:hover{
+  background: rgb(11,115,147);
+  color: rgb(255,255,255);
+  border-color: rgb(0,0,0);
+}
+
+.About_me_btn{
+  padding: 0.8px 1.5px;
+  border: 1px solid rgb(0,1,250);
+  border-radius: 1000px;
+  color: rgb(255,255,255);
+  background-color: rgb(0,0,0);
+  line-height: 5px;
+  transition: background-color 0.5s ease transform 0.1s ease;
+  
+}
+
+.About_me_btn:hover{
+  background: rgb(11,115,147);
+  color: rgb(255,255,255);
+  border-color: rgb(0,0,0);
+}
+
+.contact_btn{
+  padding: 0.8px 1.5px;
+  border: 1px solid rgb(0, 1, 250);
+  border-radius: 1000px;
+  color: rgb(255, 255, 255);
+  background-color: rgb(0, 0, 0);
+  line-height: 5px;
+  transition: background-color 0.5s ease transform 0.1s ease;
+  
+}
+
+.contact_btn:hover {
+  background: rgb(11, 115, 147);
+  color: rgb(255, 255, 255);
+  border-color: rgb(0, 0, 0);
+}
+#About_me{
+
+  text-align:left;
+}
+
+#About_me p{
+  margin-bottom: 1px;
+  color: rgb(0,0,0);
+}
+
+#About_me img{
+   
+  width: 200px; 
+  height: 100px;
+}
+
+#Contacts{
+  border-bottom: none;
+  
+}
+#Contacts h4{
+  margin-bottom: 5px;
+}
+
+.hobbies ul{
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 1px;
+}
+.hobbies ul li{
+  font-size:1px;
+  font-weight:500;
+  color: rgb(0, 0, 0);
+  padding: 1px 1.5px;
+  background-color: rgb(255,255,255);
+  border: 1px dotted rgb(255,255,255);
+  boder-radius: 10px;
+  transform: backgroun-color 0.5s, border-color 0.5s;
+  
+}
+.hobbies ul li:hover{
+  border-color: rgb(11,115,147);
+  background: rgb(25, 82, 100);
+
+}
+.video{
+  width: 250px;
+  height: auto;
+  border-radius: 15px;
+  bbackground-color: rgb(250,255,255);
+}
+.Footer{
+  background-color: cyan;
+}
+@media(max-width: 485px;) {
+  nav{
+    gap: 2px;
+    padding: 1.5px 1.75px;
+  }
+}
+.navbar{
+  
+  
+}
