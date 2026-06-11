@@ -83,8 +83,17 @@ nav a:hover {
     transform: scale(1.05);
         }
 
+#About_me{
+ display: flex;
+  flex-direction: column; 
+  align-items: left; 
+  width: 300px;
+  margin: 20px auto; 
+}
+
 #About_me h4 {
-    margin-bottom: 0px;
+    margin-bottom: 2px;
+    margin-top: 3px;
     color: rgb(0, 0, 0);
     text-align: left;
         }
@@ -100,6 +109,7 @@ nav a:hover {
     height: 150px;
     float: left;
     margin-bottom: 5px;
+    margin-top: 3px;
         }
 
 #Contacts {
